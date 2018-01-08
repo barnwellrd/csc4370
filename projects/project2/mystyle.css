@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.answered{
+	width: 150px;
+	height: 10px;
+	text-align: center;
+	background-color: white !important;
+	border: 2px solid black;
+	
+}
+.ua{
+	width: 150px;
+	height: 10px;
+	text-align: center;
+	background-color: yellow;
+	border: 2px solid black;
+}
+
+
+#data{
+	visibility: hidden;
+}

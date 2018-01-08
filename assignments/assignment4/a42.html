@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- Written by Ricky Barnwell  -->
+<!-- Csc 4370 Summer 2017  -->
+<!-- Assignment 5  -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Assignment 5</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<style>
+			h1{
+				text-align: center;
+			}
+			
+			p{
+				text-align: center;
+			}
+			
+			button{
+				margin: -20px -25px; 
+				position:relative;
+				top:50%; 
+				left:50%;
+			}
+			
+			.header{
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			a{
+				text-decoration: none;
+			}
+			
+			.headercell{
+				margin:20px;
+				padding-right: 10px;
+				padding-left: 10px;
+				text-align: center;
+			}
+		</style>
+		<script src="guessGame.js"></script>
+	</head>
+	<body>
+		<table class = "header">
+			<tr>
+				<td class="headercell"><a href="a41.html">Payroll Processing</a></td>
+				<td class="headercell"><a href="a42.html">Number Guessing Game</a></td>
+				<td class="headercell"><a href="a43.html">Picture Guessing Game</a></td>
+			</tr>
+		</table>
+		<h1>Guessing Game:</h1>
+		<div>
+			<p>Guess the random number between 1-100:</p>
+			<p><input id="inputNum" type="text" size="20" /></p>
+			<button onclick="guess();">Guess!</button>	
+			<p id="guessResult"></p>
+			<p>Tries Left:<span id="triesLeft">5</span></p>
+		</div>	
+	</body>
+</html>

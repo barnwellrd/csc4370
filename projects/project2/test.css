@@ -1,0 +1,69 @@
+ table{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+body{
+	text-align: center;
+}
+.ua{
+	width: 150px;
+	height: 10px;
+	text-align: center;
+	background-color: yellow;
+	border: 2px solid black;
+}
+.answered{
+	width: 150px;
+	height: 10px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	
+}
+.flip-container .flipper{
+  animation: flip 3s;
+}
+@-webkit-keyframes flip {
+  from {
+    transform: rotateY(180deg)
+  }
+  to {
+    transform: rotateY(0deg)
+  }
+}
+@keyframes flip {
+  from {
+    transform: rotateY(180deg)
+  }
+  to {
+    transform: rotateY(0deg)
+  }
+}
+
+.flip-container, .front, .back {
+	width: 150px;
+	height: 20px;
+}
+
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	background-color: white;
+}
+
+.back {
+	transform: rotateY(180deg);
+	background: yellow;
+}

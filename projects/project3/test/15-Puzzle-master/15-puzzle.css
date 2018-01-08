@@ -1,0 +1,118 @@
+
+#game{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 4px solid black;
+}
+
+#game span{
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	border: 2px solid black;
+	font: bold 32px/96px Arial;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	color: white;
+}
+
+button{
+	margin: -20px -50px; 
+	position:relative;
+	top:50%; 
+	left:50%;
+}
+
+
+#game span.empty{
+	background: transparent;
+}
+
+.tile
+{
+	background-image: url("background.jpg");
+	background-size: 400px 400px;
+	background-repeat: no-repeat;
+}
+#cell-0-0
+{
+	background-position: 0px 0px;
+}
+
+#cell-0-1
+{
+	background-position: -100px 0px;
+}
+
+#cell-0-2
+{
+	background-position: -200px 0px;
+}
+
+#cell-0-3
+{
+	background-position: -300px 0px;
+}
+
+#cell-1-0
+{
+	background-position: 0px -100px;
+}
+
+#cell-1-1
+{
+	background-position: -100px -100px;
+}
+
+#cell-1-2
+{
+	background-position: -200px -100px;
+}
+
+#cell-1-3
+{
+	background-position: -300px -100px;
+}
+
+#cell-2-0
+{
+	background-position: 0px -200px;
+}
+
+#cell-2-1
+{
+	background-position: -100px -200px;
+}
+
+#cell-2-2
+{
+	background-position: -200px -200px;
+}
+
+#cell-2-3
+{
+	background-position: -300px -200px;
+}
+
+#cell-3-0
+{
+	background-position: 0px -300px;
+}
+
+#cell-3-1
+{
+	background-position: -100px -300px;
+}
+
+#cell-3-2
+{
+	background-position: -200px -300px;
+}
+
+#cell-3-3
+{
+	background-position: -300px -300px;
+}

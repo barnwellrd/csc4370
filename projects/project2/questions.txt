@@ -1,0 +1,6 @@
+id^quest^a1^a2^a3^a4^a5^a6^a7^a8
+1^Name a Fruit You Never Buy Just One of.^Grapes:44^Apple:14^Orange:13^Banana:12^Strawberry:8^Cherry:5^Raspberry:4^-:-
+2^Name a Holiday That People Wear Special Colors for.^Christmas:51^St. Patrick's Day:28^Fourth of July:12^Pride Day:4^Easter:3^Halloween:2^-:-^-:-
+3^Name a Bad Job for Someone Who's Accident Prone.^Driver:33^Construction:20^Police:15^Food Service:10^Glass Maker:9^Window Washer:7^Surgeon:6^-:-
+4^Name a Place You Visit Where You Aren't Allowed to Touch Anything.^Museum:52^Zoo:38^Gentleman's Club:5^China Shop:5^-:-^-:-^-:-^-:-
+5^Name a Recreational Activity Traditionally Done in Hot Weather.^Swimming:47^Baseball:18^Volleyball:17^Surfing:11^Boating:7^-:-^-:-^-:-

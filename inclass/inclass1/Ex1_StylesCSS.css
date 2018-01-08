@@ -1,0 +1,234 @@
+
+<html>
+<head>
+
+<title>CSc 1301 Prnciples of Computer Science - FALL 2016</title>
+<style>
+  body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    min-width: 850px;
+    color: #333333;
+  }
+
+  #main-col {
+    width: 850px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #hd {
+    border-bottom: 2px solid #003399;
+    margin-bottom: 25px;
+  }
+
+  img {
+    border: 0;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  a:link, a:active, a:visited {
+    color: #1122CC;
+     cursor: pointer;
+  }
+
+  div {
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    margin: 15px 0 10px;
+    line-height: 130%;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #ccc;
+  }
+
+  .section.noline {
+    border: 0;
+  }
+
+  .section h1, .section h3 {
+    color: #003399;
+  }
+
+  .at {
+    width: 15px;
+    vertical-align: text-bottom;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+  h3 {
+font-family: Verdana;
+color: red;
+}
+
+</style>
+</head>
+
+<body>
+<font color = "red" size = "3">
+<b><u> HOMEWORK/ASSIGNMENTS</u></b>
+Dropbox is open in college with due date and time 
+<font>
+<p style="font-size:17px"></strong></h1> </strong></h1></p>
+
+<p style="font-size:14px">  Homework 1 <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsFall2016/Homework1A.pdf">Homework 1
+</a> </strong></p>
+
+
+<!--
+<p style="font-size:14px"> Homework 2  <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSP16/Homework_2.pdf">Homework 2
+</a> </strong></p>
+
+<p style="font-size:14px">  Homework 3 <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Homework3_2scomplement.pdf">Homework 3
+</a> </strong></p>
+
+<p style="font-size:14px">  Homework 4 <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Homework4.pdf">Homework 4
+</a> </strong></p>
+<hr>
+<p style="font-size:14px">  Homework 5  <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Homework5.pdf">Homework 5 </a> 
+
+7.5.16 Class Notes <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/ClassSlides/Java_Statements">7.5.16 Class Notes 
+ </a> 
+ Java Scanner Class Notes <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/ClassSlides/Reading_input.ppt">Scanner Class Notes</a> </strong></p>
+<hr>
+
+<p style="font-size:14px"> <!-- Homework 6  <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Homework6.pdf">Homework 6 </a> 
+
+<p style="font-size:14px">  Homework 7  <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Homework7.pdf">Homework 7</a> 
+
+<p style="font-size:14px">  Homework 8  <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Homework 8_Arrays.pdf">Homework 8</a> 
+-->
+
+<hr>
+<b><u> Outlines and Topics of Discussions</u></b>
+<p style="font-size:14px"> 
+
+<h4> 
+<ul>
+  <li>Introduction</li>
+  <li>0.1 The Role of Algorithms</li>
+  <li>Please bring Laptops to all labs</li>
+   <li>0.3 An Outline of Our Study</li>
+ <li>0.4 The Overarching Themes of Computer Science</li>
+  <li><a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/Chap%200.ppt"> Chapter Zero Class Notes</a></li>  
+
+</ul>
+</h4>
+
+
+
+<hr>
+<p style="font-size:14px"> <h3>Strings and Arrays Notes </h3>
+
+ <a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Java_Strings_Arrays/Java_Strings.pdf">Strings
+</a> </strong>
+
+<a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Java_Strings_Arrays/Arrays.html">Arrays
+</a> </strong>
+
+<a href="http://grid.cs.gsu.edu/~csclxh/csc2010/AssignmentsSU16/Java_Strings_Arrays/11-ch04-3-strings.pdf">Additional Arrays via Textbook
+</a> </strong>
+
+</p>
+
+
+<hr>
+<br/><br/>
+<p style="font-size:17px"></strong></h1> Slides - Gersting-Schneider Invitation to Computer Science</strong></h1></p>
+
+
+<h1>Secondary notes</h1>
+<p style="font-size:14px"> Chapter 0 <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/ch01-Prasad-8-28.pptx">pptx</a>&nbsp;&nbsp; <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/ch01-Prasad-8-28.pdf">pdf</a> </strong></p>
+
+<p style="font-size:14px"> Chapter 0 <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/gs-ch02-sushil-9-10.ppt">ppt</a>&nbsp;&nbsp; <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/gs-ch02-sushil-9-10.pdf">pdf</a> </strong></p>
+
+
+<p style="font-size:14px"> Chapter 1 Introduction <a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/chap01.ppt">ppt
+</a> </strong></p>
+
+<br/>
+<font color = "blue" size = "3">
+<b><u> Additional Chapter 2 Notes</u></b>
+<font>
+
+<p style="font-size:14px"> More on Chapter 2 <a href="http://www.cs.gsu.edu/~lhenry/csc2010/chapter02_add.ppt">ppt part 2</a> </strong></p>
+
+<p style="font-size:14px"> Class Notes <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/chap2-class-notes-Sept3.pdf">pdf</a> </strong></p>
+
+<p style="font-size:14px"> Class Notes <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/CSC2010-chapter2-paternMatching-9-10.pdf">pdf</a> </strong></p>
+
+<p style="font-size:14px"> Chapter 3 <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/gs-ch03.ppt">ppt</a> &nbsp;&nbsp; <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/gs-ch03.pdf"> pdf </a> </strong></p>
+
+<p style="font-size:14px">Lecture Notes <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/notes/10092013.pdf"> pdf </a></strong></p>
+
+
+<p style="font-size:14px"> Chapter 4: The Building Blocks - Binary Numbers, Boolean Logic, and Gates <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/gs-ch04-sushil.ppt">ppt</a> </strong></p>
+
+<p style="font-size:14px"> Binary Arithmetic, Logic, and Logic Gates <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/notes/10282013.pdf"> pdf </a> </strong></p>
+
+<p style="font-size:14px"> Building Circuits <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/notes/10302013.pdf"> pdf </a> </strong></p>
+
+
+<p style="font-size:14px"> Chapter 5: Computer Systems Organization <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/gs-ch05.ppt"> ppt </a> </strong></p>
+
+
+
+
+<!-- previous link that is updated with new info
+<p style="text-indent:15px"><a href="gs-ch1.pptx">Chapter 1 (pptx)</a>,
+<a href="gs-ch1.pdf">Chapter 1 (pdf)</a>
+</p>
+-->
+<Font color = "blue" size = "3">
+<b><u> Slides -  Java Programming</u></b>
+</font>
+
+<p style="font-size:14px"> Chapter 1 Introduction <a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/Java/ch01.ppt">Chapter 1 Intro ppt
+</a> </strong></p>
+
+<p style="font-size:14px"> Chapter 2 Introduction <a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/Java/ch02.ppt">Chapter 2 Intro ppt
+</a> </strong></p>
+
+<p style="font-size:14px"> Chapter 3 Introduction <a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/Java/ch03.ppt">Chapter 3 Intro ppt
+</a> </strong></p>
+
+<p style="font-size:14px"> Chapter 4 Introduction <a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/Java/ch04.ppt">Chapter 4 Intro ppt
+</a> </strong></p>
+
+<p style="font-size:14px"> Chapter 5 Introduction <a href="http://grid.cs.gsu.edu/lhenry/csc2010/ClassSlides/Java/ch04.ppt">Chapter 5 Intro ppt
+</a> </strong></p>
+
+<br/><br/>
+<hr>
+
+<font color = "blue" size = "3">
+<b><u>ADDTIONAL JAVA NOTES</u></b>
+<font>
+
+<a href="">ppt</a>, <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/KKCH01.pdf">pdf</a> &nbsp;&nbsp;  <a href="http://www.asciitable.com/" target="_blank">ASCII Codes</a>&nbsp;&nbsp; 
+<a href="http://www.unicodetables.com/" target="_blank">Unicodes</a></strong></p>
+
+<p style="font-size:14px"> Chapter 2: Writing Java Programs <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/KKCH02.ppt">ppt</a>&nbsp;&nbsp;  <a href="http://www.cs.gsu.edu/~csc2010/f13/slides/KKCH02.pdf">pdf</a></strong></p>
+
+
+
+</body>
+</html>
+
+

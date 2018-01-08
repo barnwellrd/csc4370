@@ -1,0 +1,69 @@
+body{
+	background: url("background.jpg") no-repeat center center fixed;
+	background-size:cover;
+	color: #000000;
+	font-family: "Arial", arial, sans-serif;
+	font-size: 13px;
+}
+.header{
+	background-color: #f0f0f0;
+}
+.headertitletext{
+	text-align: center;
+	color: #A4A400;	
+}
+.navbar{
+	margin-left: 5%;
+}
+.navbutton{
+	background-color: #F0E68C;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	border-right: 10px solid #003366;
+	margin-right: 5px;
+}
+.navbutton a{
+	text-decoration: none;
+}
+#welcome{
+	text-align: center;
+	background-color: #f0f0f0;
+	color: #A4A400;
+}
+img {
+    float: right;
+}
+.h4small{
+	 font-weight: 500;
+}
+.nuttable{
+	border: 2px solid white;
+	color: #ffffff;
+	border-collapse: collapse;
+}
+.nuttabhead{
+	border-collapse: collapse;
+	border: 2px solid white;
+	background-color: #f0f0f0;
+	color: #A4A400;
+}
+.bluecell{
+	background-color: #003366;
+	text-align: center;
+	border: 2px solid white;
+	padding: 2px;
+	padding-left:4px;
+	padding-right: 4px;
+}
+.orangecell{
+	background-color: #cc9933;
+	border: 2px solid white;
+	padding: 2px;
+	padding-left:4px;
+}
+.ratingtable{
+	border-collapse: collapse;
+	border: 2px solid white;
+	color: #ffffff;
+}

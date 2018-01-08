@@ -1,0 +1,53 @@
+body{
+	background: url("background.jpg") no-repeat;
+	background-size:cover;
+	font: 15px arial, sans-serif;
+	margin-left:20%; 
+    margin-right:20%;
+}
+a:hover { 
+    background-color: red;
+}
+.centerheadandimage{
+	text-align: center;
+	margin-top: 10px;
+}
+.assignmenttable{
+	margin: auto;
+	border-collapse: collapse;	
+}
+tr:nth-child(odd) {
+	background-color: white
+	}
+tr:nth-child(even) {
+	background-color: #F0F8FF
+}
+td, th{
+	text-align: left;
+	padding: 5px;
+	width: 20%	
+}
+#hobbies{
+	margin-left: 5%;
+	margin-right: 10%;
+
+}
+#quote{
+	font-style: italic;
+	text-align: center;
+	
+}
+  .footer { 	/*footer*/
+    margin-top: 10px;
+    padding: 0;
+	text-align: center;
+  }
+  .highlight{
+	  color: red;
+	  font-weight: bold
+  }
+  img{
+	  margin-top: 10px;
+  }
+
+	

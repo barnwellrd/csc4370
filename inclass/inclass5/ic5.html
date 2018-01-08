@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- Written by Ricky Barnwell  -->
+<!-- Csc 4370 Summer 2017  -->
+<!-- Inclass 5  -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>In-Class Assignment 5</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<style>
+			.errortxt{
+				color: red;
+				text-decoration: underline;
+			}
+		</style>
+		<script>
+			function validateForm() 
+			{
+				var _id = true;
+				var _fname = true;
+				var _lname = true;
+				document.getElementById("id_error").innerHTML = "";
+				document.getElementById("fname_error").innerHTML = "";
+				document.getElementById("lname_error").innerHTML = "";
+				var text = "You forgot to fill in the following field(s) ";
+				var x = document.forms["myForm"]["id"].value;
+				if (x == "") 
+				{
+					_id = false;
+					text += "ID";
+					document.getElementById("id_error").innerHTML = "Please Enter an ID";
+				}
+				x = document.forms["myForm"]["firstname"].value;
+				if (x == "") 
+				{
+					_fname = false;
+					if(!_id)
+					{
+						text += ", FirstName";
+					}	
+					else
+					{
+						text += "FirstName";
+					}
+					document.getElementById("fname_error").innerHTML = "Please Enter a First Name";
+				}
+				x = document.forms["myForm"]["lastname"].value;
+				if (x == "") 
+				{
+					_lname = false;
+					if(!_id || !_fname)
+					{
+						text += ", LastName";
+					}
+					else
+					{
+						text += "LastName";
+					}
+					document.getElementById("lname_error").innerHTML = "Please Enter a Last Name";		
+				}
+				if(!_id || !_fname || !_lname)
+				{
+					alert(text);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form name="myForm">
+			<table>
+				<tr>
+					<td></td>
+					<td>
+						<div class="errortxt" id="id_error"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						ID:
+					</td>
+					<td>
+						<input type="text" name="id" value="">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<div class="errortxt" id="fname_error"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						FirstName:
+					</td>
+					<td>
+						<input type="text" name="firstname" value="">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<div class="errortxt" id="lname_error"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						LastName:
+					</td>
+					<td>
+						<input type="text" name="lastname" value="">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="button" onclick="validateForm()">Add</button>
+					</td>
+				</tr>
+			</table>
+		</form> 	
+	</body>
+</html>

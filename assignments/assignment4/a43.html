@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- Written by Ricky Barnwell  -->
+<!-- Csc 4370 Summer 2017  -->
+<!-- Assignment 4  -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Assignment 4</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<style>
+			h1, h2 {
+				text-align: center;
+			}
+
+			div.level-container {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			#game {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+
+			#game .row {
+				display: flex;
+				align-items: center;
+			}
+
+			#game .row .tile {
+				margin: 5px;
+				width: 280px;
+				height: 165px;
+				border: solid 1px black;
+				background-color: black;
+				text-align: center;
+				color: white;
+
+			}
+			
+			#game .row .tile-found {
+				margin: 5px;
+				width: 280px;
+				height: 165px;
+				border: solid 1px black;
+			}
+			
+			.header{
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			a{
+				text-decoration: none;
+			}
+			
+			.headercell{
+				margin:20px;
+				padding-right: 10px;
+				padding-left: 10px;
+				text-align: center;
+			}
+		</style>
+		<script src= "pictureGame.js"></script>
+	</head>
+	<body>
+		<table class = "header">
+			<tr>
+				<td class="headercell"><a href="a41.html">Payroll Processing</a></td>
+				<td class="headercell"><a href="a42.html">Number Guessing Game</a></td>
+				<td class="headercell"><a href="a43.html">Picture Guessing Game</a></td>
+			</tr>
+		</table>
+		<h2>Picture Memory Game</h2>
+		<div class="level-container">
+			<button onclick= "newGame(16)">Easy : 16 Pictures, 8 Second Display</button>
+			<button onclick= "newGame(20)">Medium : 20 Pictures, 5 Second Display</button>
+			<button onclick= "newGame(24)">Hard : 24 Pictures, 3 Second Display</button>
+		</div>
+		<h2 id="timer"></h2>
+		<div id="game">
+			Select a difficulty to begin. Match the pictures within the time limit!
+		</div>
+	</body>
+</html>
